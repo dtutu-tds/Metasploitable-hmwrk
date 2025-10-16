@@ -1,0 +1,21 @@
+# Nmap 7.95 scan initiated Tue Oct 14 16:39:23 2025 as: /usr/lib/nmap/nmap -sS -p1-1024 -n -vv --reason -oN syn-scan.txt 192.168.1.13
+Nmap scan report for 192.168.1.13
+Host is up, received reset ttl 62 (0.017s latency).
+Scanned at 2025-10-14 16:39:23 +05 for 2s
+Not shown: 1012 closed tcp ports (reset)
+PORT    STATE SERVICE      REASON
+21/tcp  open  ftp          syn-ack ttl 62
+22/tcp  open  ssh          syn-ack ttl 62
+23/tcp  open  telnet       syn-ack ttl 62
+25/tcp  open  smtp         syn-ack ttl 62
+53/tcp  open  domain       syn-ack ttl 62
+80/tcp  open  http         syn-ack ttl 62
+111/tcp open  rpcbind      syn-ack ttl 62
+139/tcp open  netbios-ssn  syn-ack ttl 62
+445/tcp open  microsoft-ds syn-ack ttl 62
+512/tcp open  exec         syn-ack ttl 62
+513/tcp open  login        syn-ack ttl 62
+514/tcp open  shell        syn-ack ttl 62
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Oct 14 16:39:25 2025 -- 1 IP address (1 host up) scanned in 1.53 seconds

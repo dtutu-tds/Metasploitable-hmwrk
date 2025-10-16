@@ -1,0 +1,21 @@
+# Nmap 7.95 scan initiated Tue Oct 14 16:45:14 2025 as: /usr/lib/nmap/nmap -sX -p1-1024 -n -vv --reason -oN xmas-scan.txt 192.168.1.13
+Nmap scan report for 192.168.1.13
+Host is up, received reset ttl 62 (0.020s latency).
+Scanned at 2025-10-14 16:45:14 +05 for 1s
+Not shown: 1012 closed tcp ports (reset)
+PORT    STATE         SERVICE      REASON
+21/tcp  open|filtered ftp          no-response
+22/tcp  open|filtered ssh          no-response
+23/tcp  open|filtered telnet       no-response
+25/tcp  open|filtered smtp         no-response
+53/tcp  open|filtered domain       no-response
+80/tcp  open|filtered http         no-response
+111/tcp open|filtered rpcbind      no-response
+139/tcp open|filtered netbios-ssn  no-response
+445/tcp open|filtered microsoft-ds no-response
+512/tcp open|filtered exec         no-response
+513/tcp open|filtered login        no-response
+514/tcp open|filtered shell        no-response
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Oct 14 16:45:15 2025 -- 1 IP address (1 host up) scanned in 1.65 seconds

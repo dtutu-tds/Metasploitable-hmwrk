@@ -1,0 +1,19 @@
+# Nmap 7.95 scan initiated Tue Oct 14 16:46:02 2025 as: /usr/lib/nmap/nmap -sU -p53,67,68,69,123,137,138,161,500,514 -n -vv --reason -oN udp-scan.txt 192.168.1.13
+Nmap scan report for 192.168.1.13
+Host is up, received echo-reply ttl 62 (0.015s latency).
+Scanned at 2025-10-14 16:46:02 +05 for 3s
+
+PORT    STATE         SERVICE     REASON
+53/udp  open          domain      udp-response ttl 62
+67/udp  closed        dhcps       port-unreach ttl 62
+68/udp  open|filtered dhcpc       no-response
+69/udp  open|filtered tftp        no-response
+123/udp closed        ntp         port-unreach ttl 62
+137/udp open          netbios-ns  udp-response ttl 62
+138/udp open|filtered netbios-dgm no-response
+161/udp closed        snmp        port-unreach ttl 62
+500/udp closed        isakmp      port-unreach ttl 62
+514/udp closed        syslog      port-unreach ttl 62
+
+Read data files from: /usr/share/nmap
+# Nmap done at Tue Oct 14 16:46:05 2025 -- 1 IP address (1 host up) scanned in 3.78 seconds
